@@ -10,7 +10,7 @@ def greetings() -> str:
 def student_grade() -> str:
     rand_int = randint(0, 100)
     if rand_int >= 95:
-        return f"You graduated with a score of {rand_int}, exellent!"
+        return f"You graduated with a score of {rand_int}, excellent!"
     elif 85 <= rand_int >= 94:
         return f"You graduated with a score of {rand_int}, very good!"
     elif 65 <= rand_int >= 84:
